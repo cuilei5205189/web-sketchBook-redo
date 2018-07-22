@@ -1,8 +1,13 @@
 body {
     padding: 0;
     margin: 0;
+    /* 设置canvas尺寸等于浏览器窗口尺寸 */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #sketchBook {
     background-color: green;
+    position: absolute;
 }
